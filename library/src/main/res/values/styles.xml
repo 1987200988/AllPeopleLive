@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--AppCompatDelegate.setDefaultNightMode(AppCompatDelegate.MODE_NIGHT_NO);-->
+    <!--getWindow().setWindowAnimations(R.style.WindowAnimationFadeInOut);-->
+    <!--recreate();-->
+<!--此为淡入淡出的效果-->
+    <style name="WindowAnimationFadeInOut">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <!--下面是toolbar的主题会让toolbar变白色主题-->
+    <!--app:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"-->
+
+   <!--下面是toolbar中menu菜单的颜色设置-->
+    <!--app:popupTheme="@style/AppTheme.PopupOverlay"-->
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+
+</resources>

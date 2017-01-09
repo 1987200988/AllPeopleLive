@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="350px"
+    android:background="#32CD32"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginTop="80px"
+        android:layout_marginLeft="10px"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MVP快速开发框架"
+            android:layout_marginLeft="10px"
+
+            android:textSize="30px"
+            android:layout_marginTop="50px"
+            />
+         <TextView
+             android:layout_marginLeft="10px"
+
+             android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="10px"
+            android:text="https://github.com/superman42.MVP"
+            android:textSize="25px"
+            />
+
+
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>

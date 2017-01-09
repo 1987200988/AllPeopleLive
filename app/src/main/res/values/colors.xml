@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#32CD32</color>
+    <color name="colorPrimaryDark">#32CD32</color>
+    <color name="colorAccent">#fff</color>
+    <color name="textColor">#000</color>
+    <color name="floatbarColor">#33ff33</color>
+
+
+
+</resources>

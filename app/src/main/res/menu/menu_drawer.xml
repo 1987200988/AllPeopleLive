@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group >
+        <item
+            android:id="@+id/publish"
+            android:checkable="true"
+            android:checked="true"
+            android:icon="@mipmap/ic_launcher"
+            android:title="发布模块"/>
+        <item
+            android:id="@+id/AllPeopleTV"
+            android:checkable="true"
+            android:icon="@mipmap/ic_launcher"
+
+            android:title="全民TV"/>
+
+    </group>
+
+    <item android:title="选项">
+    <menu>
+    <item
+    android:icon="@mipmap/ic_launcher"
+    android:title="设置"
+    android:checkable="true"/>
+    <item
+    android:icon="@mipmap/ic_launcher"
+    android:title="关于"
+    android:checkable="true"/>
+    </menu>
+    </item>
+
+
+
+
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoFrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="5px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+>
+<android.support.v7.widget.CardView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10px"
+    app:cardCornerRadius="10px"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<com.zhy.autolayout.AutoLinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+<ImageView
+    android:layout_width="200px"
+    android:layout_height="200px"
+    android:id="@+id/wetrecycleiv"
+
+    />
+<com.zhy.autolayout.AutoRelativeLayout
+    android:layout_weight="1"
+    android:layout_width="0dp"
+    android:layout_height="200px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wettitle"
+        android:layout_margin="30px"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wetdescription"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30px"
+
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/wettime"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="30px"
+
+        />
+
+
+
+
+
+
+
+
+</com.zhy.autolayout.AutoRelativeLayout>
+
+
+
+
+
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>
+</android.support.v7.widget.CardView>
+</com.zhy.autolayout.AutoFrameLayout>

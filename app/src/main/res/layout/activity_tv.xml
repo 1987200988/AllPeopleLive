@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoLinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_tv"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="liwei.example.com.allpeoplelive.view.TvActivity">
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:id="@+id/appbartv"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/main_toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:contentScrim="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|enterAlways"
+                android:background="?attr/colorPrimary">
+            </android.support.v7.widget.Toolbar>
+            <android.support.design.widget.TabLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                app:tabIndicatorColor="#fff"
+                app:tabSelectedTextColor="#fff"
+                app:tabTextColor="#fff"
+                app:tabMode="scrollable"
+
+                android:id="@+id/tv_tab"
+                ></android.support.design.widget.TabLayout>
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+
+
+            >
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/tv_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#fff"
+
+                />
+        </LinearLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+</com.zhy.autolayout.AutoLinearLayout>
